@@ -14,7 +14,7 @@ import java.util.List;
 public class AnagramProg{
 	public static void main(String[] args) {
 	  final String filePath = "sample.txt";
-		final Map<String, ArrayList<String>> anagrams = new HashMap<>();
+		final Map<String, List<String>> anagrams = new HashMap<>();
 		/*  anagrams will be handled and grouped by adding to the anagram list the 
 		    words based on their sorted string version */ 
 		try(final BufferedReader readLine = new BufferedReader(new FileReader(filePath))){
