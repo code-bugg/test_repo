@@ -7,5 +7,7 @@ In this Java program, the sample.txt file is read line by line via the BufferedR
   5) After the HashMap keySet iteration is over, every word from every list of the HashMap's valueSet is displayed to the System.out.
 
 This program does not utilize any other packages besides Java's own java.util and java.io packages for both utilities and file handling. In order to run this program with the JVM it is enough to run:
+  
   javac AnagramProg.java
+  
   java AnagramProg
